@@ -1,0 +1,648 @@
+{
+  "models": [
+    {
+      "config": "A",
+      "seed": 11,
+      "depth": 6,
+      "activation": "Sigmoid",
+      "hidden_init": "xavier",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.6969095468521118,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "A",
+      "seed": 29,
+      "depth": 6,
+      "activation": "Sigmoid",
+      "hidden_init": "xavier",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.7130545377731323,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "B",
+      "seed": 11,
+      "depth": 6,
+      "activation": "Tanh",
+      "hidden_init": "xavier",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.5861597657203674,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "B",
+      "seed": 29,
+      "depth": 6,
+      "activation": "Tanh",
+      "hidden_init": "xavier",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.6679559350013733,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "C",
+      "seed": 11,
+      "depth": 6,
+      "activation": "ReLU",
+      "hidden_init": "xavier",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.6807962656021118,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "C",
+      "seed": 29,
+      "depth": 6,
+      "activation": "ReLU",
+      "hidden_init": "xavier",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.6746425032615662,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "D",
+      "seed": 11,
+      "depth": 6,
+      "activation": "ReLU",
+      "hidden_init": "he",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.9325680732727051,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "D",
+      "seed": 29,
+      "depth": 6,
+      "activation": "ReLU",
+      "hidden_init": "he",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.444124311208725,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "E",
+      "seed": 11,
+      "depth": 6,
+      "activation": "ReLU",
+      "hidden_init": "he",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.9325680732727051,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "E",
+      "seed": 29,
+      "depth": 6,
+      "activation": "ReLU",
+      "hidden_init": "he",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 0.444124311208725,
+      "parameter_count": 5442,
+      "expected_parameter_count": 5442,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32,
+          32
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "F",
+      "seed": 11,
+      "depth": 1,
+      "activation": "ReLU",
+      "hidden_init": "he",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 1.3880451917648315,
+      "parameter_count": 162,
+      "expected_parameter_count": 162,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    },
+    {
+      "config": "F",
+      "seed": 29,
+      "depth": 1,
+      "activation": "ReLU",
+      "hidden_init": "he",
+      "input_shape": [
+        8,
+        2
+      ],
+      "output_shape": [
+        8,
+        2
+      ],
+      "loss_shape": [],
+      "check_loss": 1.6475694179534912,
+      "parameter_count": 162,
+      "expected_parameter_count": 162,
+      "hidden_gradient_shapes": [
+        [
+          32,
+          2
+        ]
+      ],
+      "checks": {
+        "input_shape": true,
+        "output_shape": true,
+        "scalar_loss": true,
+        "finite_loss": true,
+        "parameter_count": true,
+        "hidden_gradients_present": true,
+        "hidden_gradient_shapes": true,
+        "hidden_gradients_finite": true,
+        "zero_biases": true,
+        "repeatable_initialization": true
+      }
+    }
+  ]
+}

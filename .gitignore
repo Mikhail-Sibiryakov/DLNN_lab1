@@ -1,0 +1,45 @@
+# Локальное окружение и кэши Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Локальные тесты разработки
+/tests/
+
+# Локальные инструкции агента, настройки редактора и пробный запуск
+/AGENTS.md
+/docs/TASK.md
+/docs/superpowers/
+/.vscode/
+/results/training_check.json
+/lab1.pdf
+
+# Локальные материалы подготовки отчёта; в репозиторий включаем report.pdf
+/report/
+/report.*
+!/report.pdf
+*.tex
+*.sty
+*.cls
+*.bib
+*.bst
+
+# Артефакты сборки LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+*.dvi

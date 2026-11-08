@@ -1,0 +1,55 @@
+{
+  "dataset": {
+    "n_samples": 2400,
+    "noise": 0.25,
+    "random_state": 2026
+  },
+  "device": "cpu",
+  "torch_num_threads": 1,
+  "splits": {
+    "train": {
+      "size": 1440,
+      "class_counts": {
+        "0": 720,
+        "1": 720
+      }
+    },
+    "validation": {
+      "size": 480,
+      "class_counts": {
+        "0": 240,
+        "1": 240
+      }
+    },
+    "test": {
+      "size": 480,
+      "class_counts": {
+        "0": 240,
+        "1": 240
+      }
+    }
+  },
+  "scaler_fit_samples": 1440,
+  "train_feature_mean": [
+    3.914869416298138e-10,
+    -2.705898320224757e-10
+  ],
+  "train_feature_std": [
+    0.9999999981313565,
+    1.000000000505764
+  ],
+  "probe_size": 128,
+  "checks": {
+    "split_sizes": true,
+    "feature_shapes": true,
+    "both_classes": true,
+    "feature_dtype_float32": true,
+    "label_dtype_long": true,
+    "device_cpu": true,
+    "features_finite": true,
+    "scaler_fit_on_train": true,
+    "train_mean_near_zero": true,
+    "train_std_near_one": true,
+    "probe_preserves_train_prefix": true
+  }
+}
